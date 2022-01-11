@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <div id="title">
+            <h2>Formulário</h2>
+        </div>
+        <div>
+            <label for="primeironome">Primeiro Nome: </label>
+            <input type="text" id="primeironome" name="usuario_primeironome" placeholder="Digite seu primeiro nome">
+        </div>
+        <div>
+            <label for="segundonome">Segundo nome: </label>
+            <input type="text" id="segundonome" name="usuario_sobrenome" placeholder="Digite seu sobrenome">
+        </div>
+        <div>
+            <label for="datadenascimento">Data de nascimento: </label>
+            <input type="date" id="date" name="usuario_nascimento"> 
+        </div>
+        <div>
+            <label for="email">E-mail: </label>
+            <input type="text" id="email" name="usuario_email" placeholder="Digite seu melhor e-mail">
+        </div>
+        <div id="genero">
+            <label for="genero">Gênero: </label>
+            <select name="genero" id="genero" name="usuario_genero">
+                <option value="selecione">Selecione</option>
+                <option value="maculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+        <div id="linguagem">
+            <label for="linguagem">Linguagem desejada: </label>
+            <select name="usuario_linguagem" id="linguagem">
+                <option value="selecione">Selecione</option>
+                <option value="python">Python</option>
+                <option value="javascript">JavaScript</option>
+                <option value="ruby">Ruby</option>
+                <option value="php">PHP</option>
+                <option value="outra">Outra</option>
+            </select>
+        </div>
+        <div>
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem" name="usuario_mensagem"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit" id="submit">Enviar</button>
+        </div>
+    </form>
+    
+</body>
+
+</html>
